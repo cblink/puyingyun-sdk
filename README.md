@@ -6,7 +6,7 @@
 ## Installing
 
 ```shell
-$ composer require [a[bcblink/puyingyun-sdk -vvv
+$ composer require cblink/puyingyun-sdk -vvv
 ```
 
 ## Usage
