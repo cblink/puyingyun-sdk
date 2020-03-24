@@ -1,9 +1,9 @@
 <?php
 
-namespace Cblink\PuyingyunSdk\Printer;
+namespace Cblink\Puyingyun\Printer;
 
-use Cblink\PuyingyunSdk\Kernel\BaseClient;
-use Cblink\PuyingyunSdk\Kernel\Exceptions\InvalidArgumentException;
+use Cblink\Puyingyun\Kernel\BaseClient;
+use Cblink\Puyingyun\Kernel\Exceptions\InvalidArgumentException;
 
 class Client extends BaseClient
 {
@@ -19,7 +19,7 @@ class Client extends BaseClient
      *
      * @return array|mixed|null
      * @throws InvalidArgumentException
-     * @throws \Cblink\PuyingyunSdk\Kernel\Exceptions\MethodRetryTooManyException
+     * @throws \Cblink\Puyingyun\Kernel\Exceptions\MethodRetryTooManyException
      */
     public function addPrinter(array $printer)
     {
@@ -41,7 +41,7 @@ class Client extends BaseClient
      *
      * @return array|mixed|null
      * @throws InvalidArgumentException
-     * @throws \Cblink\PuyingyunSdk\Kernel\Exceptions\MethodRetryTooManyException
+     * @throws \Cblink\Puyingyun\Kernel\Exceptions\MethodRetryTooManyException
      */
     public function addPrinters($data = [])
     {

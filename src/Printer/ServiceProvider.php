@@ -1,6 +1,6 @@
 <?php
 
-namespace Cblink\PuyingyunSdk\Printer;
+namespace Cblink\Puyingyun\Printer;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;

@@ -1,18 +1,18 @@
 <?php
 
-namespace Cblink\PuyingyunSdk\Kernel;
+namespace Cblink\Puyingyun\Kernel;
 
 use GuzzleHttp\Middleware;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\RequestOptions;
-use Cblink\PuyingyunSdk\Application;
+use Cblink\Puyingyun\Application;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Exception\RequestException;
-use Cblink\PuyingyunSdk\Kernel\Exceptions\Error;
-use Cblink\PuyingyunSdk\Kernel\Exceptions\ClientTokenExpireException;
-use Cblink\PuyingyunSdk\Kernel\Exceptions\MethodRetryTooManyException;
+use Cblink\Puyingyun\Kernel\Exceptions\Error;
+use Cblink\Puyingyun\Kernel\Exceptions\ClientTokenExpireException;
+use Cblink\Puyingyun\Kernel\Exceptions\MethodRetryTooManyException;
 
 class BaseClient
 {

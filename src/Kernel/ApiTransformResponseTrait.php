@@ -1,6 +1,6 @@
 <?php
 
-namespace Cblink\PuyingyunSdk\Kernel;
+namespace Cblink\Puyingyun\Kernel;
 
 trait ApiTransformResponseTrait
 {
@@ -22,6 +22,9 @@ trait ApiTransformResponseTrait
         }
 
         // TODO: 记录响应信息
+        if (function_exists('logger')) {
+            logger('response', $result);
+        }
 
         if (isset($result['status']) && $result['status'] !== 200) {
             $this->tokenExpireCheck($result);

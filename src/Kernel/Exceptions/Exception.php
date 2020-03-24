@@ -1,6 +1,6 @@
 <?php
 
-namespace Cblink\PuyingyunSdk\Kernel\Exceptions;
+namespace Cblink\Puyingyun\Kernel\Exceptions;
 
 use Exception as BaseException;
 

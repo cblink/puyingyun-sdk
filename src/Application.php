@@ -1,13 +1,13 @@
 <?php
 
-namespace Cblink\PuyingyunSdk;
+namespace Cblink\Puyingyun;
 
 use Pimple\Container;
-use Cblink\PuyingyunSdk\Kernel\Config;
+use Cblink\Puyingyun\Kernel\Collection;
 
 /**
  * Class Application
- * @package Cblink\PuyingyunSdk
+ * @package Cblink\Puyingyun
  *
  * @property Printer\Client $printer
  * @property Kernel\Credential $credential
@@ -26,7 +26,7 @@ class Application extends Container
         parent::__construct();
 
         $this['config'] = function () use ($config) {
-            return new Config($config);
+            return new Collection($config);
         };
 
         foreach ($this->providers as $provider) {

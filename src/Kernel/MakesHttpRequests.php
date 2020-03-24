@@ -1,6 +1,6 @@
 <?php
 
-namespace Cblink\PuyingyunSdk\Kernel;
+namespace Cblink\Puyingyun\Kernel;
 
 use GuzzleHttp\Exception\ClientException;
 

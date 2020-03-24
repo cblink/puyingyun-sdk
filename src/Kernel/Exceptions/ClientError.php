@@ -1,6 +1,6 @@
 <?php
 
-namespace Cblink\PuyingyunSdk\Kernel\Exceptions;
+namespace Cblink\Puyingyun\Kernel\Exceptions;
 
 class ClientError extends Exception
 {

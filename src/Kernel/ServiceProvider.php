@@ -1,6 +1,6 @@
 <?php
 
-namespace Cblink\PuyingyunSdk\Kernel;
+namespace Cblink\Puyingyun\Kernel;
 
 use Pimple\Container;
 use GuzzleHttp\Client as GuzzleHttp;

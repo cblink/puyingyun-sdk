@@ -1,8 +1,8 @@
 <?php
 
-namespace Cblink\PuyingyunSdk\Kernel;
+namespace Cblink\Puyingyun\Kernel;
 
-use Cblink\PuyingyunSdk\Application;
+use Cblink\Puyingyun\Application;
 use Symfony\Contracts\Cache\ItemInterface;
 
 class Credential
