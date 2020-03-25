@@ -1,7 +1,7 @@
 {
     "name": "cblink/puyingyun-sdk",
     "description": "Package description here.",
-    "license": "LGPL",
+    "license": "MIT",
     "authors": [
         {
             "name": "牟勇",
