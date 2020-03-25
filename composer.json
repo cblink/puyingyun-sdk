@@ -21,5 +21,12 @@
         "psr-4": {
             "Cblink\\Puyingyun\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cblink\\Puyingyun\\LaravelServiceProvider"
+            ]
+        }
     }
 }
