@@ -30,7 +30,7 @@ class Credential
                 'json' => $this->credentials(),
             ]);
 
-            $item->expiresAfter($result['expire_in'] - 500);
+            $item->expiresAfter($result['expire_in'] ?? 7200 - 500);
 
             $this->app['cache']->delete($this->tokenInfoCacheKey());
             $this->tokenInfo($result);
